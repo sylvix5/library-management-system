@@ -1,5 +1,13 @@
 # Library Management System
 
+A robust full-stack library management system backend built with **NestJS**, **Prisma 7**, and **PostgreSQL**, featuring relational data models for users, books, and genres.
+
+## Tech Stack
+
+* **Backend Framework:** NestJS (TypeScript)
+* **ORM & Database:** Prisma 7 with PostgreSQL (using driver adapters)
+* **Database Seeding:** TypeScript seed script (`tsx`)
+
 ## Schema Decisions
 
 ### Why Book references Genre rather than embedding it:
